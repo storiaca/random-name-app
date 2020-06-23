@@ -1,0 +1,23 @@
+{
+  "name": "random-name-app",
+  "version": "1.0.0",
+  "description": "Random name generator app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/storiaca/random-name-app.git"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "Aleksandar Ristic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/storiaca/random-name-app/issues"
+  },
+  "homepage": "https://github.com/storiaca/random-name-app#readme"
+}
