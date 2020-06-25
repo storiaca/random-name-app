@@ -14,4 +14,8 @@ app.use("/random-name", (req, res) => {
   return res.json({ first_name, last_name });
 });
 
+app.use("/", (req, res) => {
+  return res.render("index");
+});
+
 app.listen(3344, () => console.log("App listenin.."));
