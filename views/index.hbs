@@ -11,7 +11,15 @@
   <h1>Random Name Generator</h1>
   <div class="result"></div>
   <button id="generate">Get Name</button>
+
   <script src="./app.js"></script>
+  <script>
+    const resultDiv = document.querySelector(".result");
+    const generateBtn = document.querySelector("#generate");
+    generateBtn.addEventListener("click", () => {
+      loadRandomName(resultDiv);
+    });
+  </script>
 </body>
 
 </html>
